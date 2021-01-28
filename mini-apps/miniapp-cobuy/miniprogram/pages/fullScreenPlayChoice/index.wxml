@@ -1,0 +1,3 @@
+<playChoice
+  nextPageType="{{ nextPageType }}"
+  ></playChoice>

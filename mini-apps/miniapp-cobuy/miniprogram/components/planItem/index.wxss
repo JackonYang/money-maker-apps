@@ -1,0 +1,37 @@
+.plan-item {
+  padding: 5px 15px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+}
+
+.top-hint {
+  font-size: 24px;
+  color: #999;
+  margin-bottom: 5px;
+}
+
+.plan-title {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.plan-brief {
+  font-size: 25px;
+  color: #999;
+  margin: 10px 0;
+}
+
+.plan-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
+  border-top: 1px solid #eee;
+}
+
+.plan-hint {
+  font-size: 22px;
+  color: #999;
+}

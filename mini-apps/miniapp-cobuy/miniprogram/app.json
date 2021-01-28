@@ -1,0 +1,16 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/square/index",
+    "pages/detail/index",
+    "pages/me/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "合买小助手",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,8 @@
+
+<view class="star-container"
+  data-tran-id="{{ tranId }}"
+  catchtap="taggleStar">
+  <view class="star-content">
+    <image class="star-icon" mode="aspectFit" src="{{ starIconUrl }}"></image>
+  </view>
+</view>

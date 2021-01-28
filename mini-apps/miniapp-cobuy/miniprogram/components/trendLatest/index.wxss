@@ -1,0 +1,40 @@
+.page-footer {
+  /* position:fixed; */
+  /* bottom: 0; */
+  font-size: 10px;
+  height: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fffef1;
+}
+
+.table-gap {
+  height: 1px;
+}
+
+.time-info {
+  color: #69690c;
+  align-items: center;
+}
+
+.time-info-space {
+  width: 10px;
+}
+
+.ad-wrap {
+  margin: 15px auto;
+  width: 90%;
+}
+
+.from-url {
+  font-size: 12px;
+  text-align: center;
+  color: #888;
+  margin: 8px auto;
+}
+
+.from-url.latest {
+  margin-top: 0;
+}

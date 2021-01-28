@@ -1,0 +1,7 @@
+<playChoice
+  wx:if="{{ !currentRegion }}"
+  linkGroups="{{ linkGroups }}"
+  nextPageType="{{ pageType }}"
+  bind:selectedChange="onSelectedChange"
+  ></playChoice>
+<innerTabbar></innerTabbar>

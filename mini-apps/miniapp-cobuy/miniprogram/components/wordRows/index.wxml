@@ -1,0 +1,41 @@
+<!-- {
+  "word_key": "consider",
+  "word_display": "consider",
+  "trans_zh": "考虑",
+  "pron": "kənˈsɪdə",
+  "pos": "v.",
+  "trans_en": "If you consider a person or thing to be something, this is your opinion of them.",
+  "example": "I consider him a coward.",
+  "_id": "consider_0"
+}
+
+adding: markedType
+-->
+<view class="word-listing-container">
+<view class="word-listing-content">
+  <block  wx:for="{{ wordListings }}" wx:key='{{ _id }}'>
+    <view class="word-listing-row marked-{{ item.markType }}"
+      data-tran-id="{{ item._id }}"
+      catchtap="tapWord">
+
+      <view class="basic-info">
+        <view class="word-display">
+          {{ item.word_display }}
+        </view>
+        <view class="word-pron" wx:if="{{ item.pron }}">
+            [{{ item.pron }}]
+        </view>
+        <view class="word-pos">
+          {{ item.pos }}
+        </view>
+        <view class="word-trans-zh">
+          {{ item.trans_zh }}
+        </view>
+      </view>
+
+      <audioIcon word-id="{{ item.word_key }}"></audioIcon>
+
+    </view>
+  </block>
+</view>
+</view>

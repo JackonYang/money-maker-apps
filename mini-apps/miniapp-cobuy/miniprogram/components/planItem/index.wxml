@@ -1,0 +1,20 @@
+
+<view class="plan-item">
+  <view class="top-hint">
+    {{planData.hint}}
+  </view>
+  <view bindtap="goToDetail">
+    <view class="plan-title">
+      {{planData.title}}
+    </view>
+    <view class="plan-brief">
+      {{planData.brief}}
+    </view>
+  </view>
+  <view class="plan-bottom"> 
+    <text class="plan-hint">{{planData.status_hint}}</text>
+    <view>
+      <van-button type="primary" disabled="{{planData.is_sold_out}}" size="normal" bind:click="onHandleApply">立即报名</van-button>
+    </view>
+  </view>
+</view>

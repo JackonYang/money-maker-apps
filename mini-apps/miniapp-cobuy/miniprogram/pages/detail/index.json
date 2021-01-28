@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "van-button": "/miniprogram_npm/vant-weapp/button/index",
+    "confirm-dialog": "/components/confirmDialog/index"
+  }
+}

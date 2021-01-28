@@ -1,0 +1,25 @@
+/**app.wxss**/
+@import "./font.wxss";
+page {
+  background-color: #f6f6f6;
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.arrow {
+  width: 10rpx;
+  height: 10rpx;
+  border-top: 4rpx solid #ccc;
+  border-right: 4rpx solid #ccc;
+  transform: rotate(45deg);
+}

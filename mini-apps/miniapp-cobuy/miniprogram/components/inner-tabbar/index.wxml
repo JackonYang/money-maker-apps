@@ -1,0 +1,11 @@
+<view class="innter-tabber-wrap">
+  <view
+    class="button-up-down {{item.class}}"
+    data-index="{{index}}"
+    wx:for="{{tabbarList}}"
+    wx:key="text"
+    bindtap="tabClick">
+    <image class="icon" src="{{item.iconPath}}"></image>
+    <view class="icon-text">{{item.text}}</view>
+  </view>
+</view>

@@ -1,0 +1,17 @@
+<view class="plan-detail">
+  <view class="body">
+    <view class="title">{{plan.title}}</view>
+    <view class="brief">{{plan.brief}}</view>
+    <view class="detail">{{plan.detail}}</view>
+  </view>
+  <view class="operate">
+    <text class="selled">{{plan.status_hint}}</text>
+    <van-button type="primary" 
+      disabled="{{plan.is_sold_out}}"
+      bind:click="openConfrim" block>立即报名</van-button>
+    <van-button type="info"  bindtap="goToList" block>更多合买方案</van-button>
+    <van-button type="danger"  open-type="share" bindtap="share" block>分享给朋友</van-button>
+    <confirm-dialog visible="{{confirmDialog}}" curConfirmPlan="{{plan}}" bind:confirmApply="onApplyConfirm">
+    </confirm-dialog>
+  </view>
+</view>

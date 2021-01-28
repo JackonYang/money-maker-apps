@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "planItem": "/components/planItem/index",
+    "confirm-dialog": "/components/confirmDialog/index"
+  }
+}

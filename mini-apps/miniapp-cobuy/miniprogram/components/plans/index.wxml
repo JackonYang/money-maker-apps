@@ -1,0 +1,5 @@
+<view class="plans-wrap">
+  <planItem wx:for="{{plans}}" wx:key="title" wx:for-item="plan" plan-data="{{plan}}" bind:apply="openConfrim" class="plan-wrap"></planItem>
+  <confirm-dialog visible="{{confirmDialog}}" curConfirmPlan="{{curConfirmPlan}}" bind:confirmApply="onApplyConfirm">
+  </confirm-dialog>
+</view>

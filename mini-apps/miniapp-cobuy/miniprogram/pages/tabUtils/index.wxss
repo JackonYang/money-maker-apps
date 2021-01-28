@@ -1,0 +1,14 @@
+
+.utils-wrap {
+}
+.utils-wrap button {
+  width: 100%;
+  padding: 0;
+  background: #fff;
+  border-bottom: 1rpx solid #eee;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 32rpx;
+  box-sizing: border-box;
+  border-radius: 0;
+}

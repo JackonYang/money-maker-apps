@@ -1,0 +1,10 @@
+.square-wrap {
+  height: 100%;
+}
+
+.loading-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

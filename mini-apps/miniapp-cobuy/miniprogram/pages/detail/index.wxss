@@ -1,0 +1,32 @@
+.plan-detail {
+  padding: 10px 20px;
+  background-color: white;
+  font-size: 27px;
+  min-height: calc(100% - 20px);
+}
+
+.plan-detail .title {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.plan-detail .brief {
+  font-size: 25px;
+  color: #999;
+  margin: 5px auto;
+}
+/* .plan-detail .brief { */
+.operate {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.operate .selled {
+  color: #999;
+}
+
+.plan-detail van-button {
+  display: block;
+  margin-top: 10px;
+}

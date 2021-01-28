@@ -1,0 +1,97 @@
+.me-wrap .section {
+  background-color: #fff;
+}
+
+.me-wrap .section:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.me-wrap .section ul li {
+  font-size: 32rpx;
+  display: block;
+  line-height: 2;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  padding: 0 70rpx;
+}
+
+li.link-li {
+  text-decoration: underline;
+  color: #1499f8;
+}
+
+.me-wrap .section ul li navigator {
+  text-decoration: underline;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.me-wrap .title {
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  height: 90rpx;
+  line-height: 90rpx;
+  padding: 0 20px;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+}
+
+.me-wrap .title .left-line {
+  width: 6rpx;
+  height: 20rpx;
+  margin-right: 20rpx;
+  background: #d33635;
+  align-self: center;
+}
+
+.me-wrap .title image {
+  width: 45rpx;
+  height: 45rpx;
+  align-self: center;
+}
+
+.me-wrap .title .see-more {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #999;
+  font-weight: 400;
+  font-size: 28rpx;
+  flex: 1;
+}
+
+.me-wrap .title .see-more .text {
+  font-size: 14px;
+  margin-right: 20rpx;
+}
+
+.me-wrap .empty {
+  font-size: 14px;
+  color: grey;
+  height: 200rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.me-wrap .see-all-btn {
+  width: 100%;
+  padding: 0;
+  background: #fff;
+  border-bottom: 1rpx solid #eee;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 32rpx;
+  box-sizing: border-box;
+  border-radius: 0;
+}
+
+.arrow {
+  width: 10rpx;
+  height: 10rpx;
+  border-top: 4rpx solid #ccc;
+  border-right: 4rpx solid #ccc;
+  transform: rotate(45deg);
+}

@@ -1,0 +1,36 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/square/index",
+    "pages/detail/index",
+    "pages/me/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "合买小助手",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#d81e06",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/square/index",
+        "text": "合买广场",
+        "iconPath": "images/tab/leida.png",
+        "selectedIconPath": "images/tab/leida_select.png"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "text": "我的",
+        "iconPath": "images/tab/wode.png",
+        "selectedIconPath": "images/tab/wode_select.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

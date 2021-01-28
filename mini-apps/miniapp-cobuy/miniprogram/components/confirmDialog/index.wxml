@@ -1,0 +1,25 @@
+<van-dialog
+  use-slot
+  id="confirm-dialog"
+  show="{{ visible }}"
+  show-cancel-button
+  title="报名请先加店长微信"
+  confirm-button-text="复制微信号"
+  confirm-button-color="#07c160"
+  custom-style="radius: 3px"
+  bind:confirm="onApply"
+>
+  <view class="dialog-wrap">
+    <view class="seller-info">
+      <van-image 
+        round
+        src="{{curConfirmPlan.seller.avatar_url}}"
+        width="30px"
+        height="30px">
+      </van-image>
+      <view class="seller-weid">{{curConfirmPlan.seller.wechat_id}}</view>
+      <view class="seller-des">{{curConfirmPlan.seller.brief}}</view>        
+    </view>
+  </view>
+  <van-toast id="van-toast" />
+</van-dialog>

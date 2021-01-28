@@ -1,0 +1,21 @@
+.plans-wrap .plan-wrap:not(:first-child) {
+  display: block;
+  margin-top: 10px;
+}
+
+.dialog-wrap {
+  padding: 10px 20px;
+}
+
+.seller-info {
+  font-size: 13px;
+  text-align: center;
+}
+
+.seller-info .seller-weid {
+  vertical-align: middle;
+}
+
+.seller-info .seller-des {
+  color: #999;
+}

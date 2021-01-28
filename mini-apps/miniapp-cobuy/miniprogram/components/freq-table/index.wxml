@@ -1,0 +1,99 @@
+<view class="table {{ tableMode }}" id="freq-table">
+  <!-- table header -->
+
+  <view class='tr thead'>
+
+    <view class="th issue-head width1">
+      <view class="top-cell">期</view>
+      <view class="bottom-cell">号</view>
+    </view>
+
+    <view class="th head3-head th_center width3">前三位</view>
+    <view class="th small10-head th_center width10">小区</view>
+    <view class="th big10-head th_center width10">大区</view>
+
+    <view class="th repeat-head width1">
+      <view class="top-cell">重</view>
+      <view class="bottom-cell">号</view>
+    </view>
+
+    <view class="th odd-head width1">
+      <view class="top-cell">奇</view>
+      <view class="bottom-cell">数</view>
+    </view>
+
+  </view>
+
+  <!-- table content -->
+
+  <block wx:for="{{ tableData }}" wx:key="idx">
+    <view class="tbody tr">
+
+      <!-- 期号 -->
+      <view class="td width1 border-cell"> {{ item.issue }} </view>
+
+      <view class="td width3">
+        <view class="border-cell" wx:for="{{ item.head3 }}" wx:key="*this" wx:for-item="head_i">
+          {{ head_i }}
+        </view>
+      </view>
+
+      <view class="td width10">
+        <view class="border-cell" wx:for="{{ item.shouldShowSmall10 }}" wx:key="idx" wx:for-item="i1">
+          <block wx:if="{{ i1.shouldShow }}">
+            <view class="{{ i1.color }}">
+              {{ index + 1 }}
+            </view>
+          </block>
+        </view>
+      </view>
+
+      <view class="td width10">
+        <view class="border-cell" wx:for="{{ item.shouldShowBig10 }}" wx:key="idx" wx:for-item="i1">
+          <block wx:if="{{ i1.shouldShow }}">
+            <view class="{{ i1.color }}">
+              {{ index + 11 }}
+            </view>
+          </block>
+        </view>
+      </view>
+
+      <view class="td width1 border-cell"> {{ item.repeatCnt }} </view>
+      <view class="td width1 border-cell"> {{ item.oddCnt }} </view>
+
+    </view>
+  </block>
+
+  <view class='tbody tr table-bottom'>
+      <!-- 期号 -->
+      <view class="td width1 border-cell"></view>
+
+      <view class="td width3">
+        <view class="border-cell" wx:for="{{ 3 }}" wx:key="*this" wx:for-item="head_i">
+        </view>
+      </view>
+
+      <view class="td width10">
+        <view class="border-cell" wx:for="{{ 10 }}" wx:key="idx" wx:for-item="i1">
+        </view>
+      </view>
+
+      <view class="td width10">
+        <view class="border-cell" wx:for="{{ 10 }}" wx:key="idx" wx:for-item="i1">
+        </view>
+      </view>
+
+      <view class="td width1 border-cell"></view>
+      <view class="td width1 border-cell"></view>
+
+  </view>
+  <view class="tfooter tr">
+    <view class="td width4"> {{ freqWindow }}期频率 </view>
+    <view class="td width20">
+      <view class="{{ freqCnt.order }}" wx:for="{{ freqCnts }}" wx:key="idx" wx:for-item="freqCnt">
+        {{ freqCnt.cnt }}
+      </view>
+    </view>
+    <view class="td width2"></view>
+  </view>
+</view>

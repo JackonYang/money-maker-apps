@@ -1,0 +1,15 @@
+<view class="container">
+  <ad unit-id="adunit-bef09db086e02a47"></ad>
+
+  <view class="group-wrapper" wx:for="{{ linkGroups }}" wx:key="group_key" wx:for-item="linkGroup">
+    <view class="listing-item" bindtap="onLinkItemSelect"
+     data-site_name="{{ linkItem.site_name }}"
+     wx:if="{{ !linkItem.hide }}"
+     wx:for="{{ linkGroup.links }}" wx:key="site_name" wx:for-item="linkItem">
+      <view class="link-text">
+        {{ linkItem.site_name_cn }}
+      </view>
+      <view class="arrow"></view>
+    </view>
+  </view>
+</view>

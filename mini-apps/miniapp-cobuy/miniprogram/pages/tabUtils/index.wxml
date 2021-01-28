@@ -1,0 +1,12 @@
+<view class="utils-wrap">
+  <button
+    class="util-item"
+    wx:key="key"
+    data-key="{{ item.key }}"
+    wx:for="{{ utils }}"
+    bindtap="onUtilClick">{{ item.name }}</button>
+</view>
+
+<view class="ad-wrap">
+  <ad unit-id="adunit-90a79f2236e26f5a"></ad>
+</view>

@@ -1,0 +1,5 @@
+<playChoice
+  linkGroups="{{ linkGroups }}"
+  nextPageType="{{ pageType }}"
+  bind:selectedChange="onSelectedChange"
+  ></playChoice>

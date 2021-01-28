@@ -1,0 +1,7 @@
+<view class="square-wrap">
+  <van-loading wx:if="{{isLoading}}" custom-class="loading-wrap" size="24px" vertical>加载中...</van-loading>
+  <view wx:else> 
+    <plans wx:if="{{plans.length}}" plans="{{plans}}"></plans>
+    <van-empty description="今日已全部满员，明天 9:00 继续" wx:else></van-empty>
+  </view>
+</view>
