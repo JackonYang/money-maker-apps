@@ -1,0 +1,50 @@
+.mask{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 999;
+}
+
+.modal-content{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  /* height: 80%; */
+  background-color: #fff;
+  border-radius: 10rpx;
+  z-index: 1999;
+}
+
+.modal-btn-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-top: 2rpx solid rgba(7,17,27,0.1);
+}
+
+.mark-btn{
+  flex: 1;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  border: solid 2rpx rgba(7,17,27,0.1);
+  /* background-color: #56B324; */
+  background-color: #3CB371;
+  color: white;
+  /* font-size: 32rpx; */
+}
+
+.main-content{
+  flex: 1;
+  height: 100%;
+  overflow-y: hidden;
+}

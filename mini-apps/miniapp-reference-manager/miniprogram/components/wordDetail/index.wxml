@@ -1,0 +1,44 @@
+<view class='word-detail-container' wx:if='{{ show }}'>
+  <view class='word-detail-content'>
+
+    <view class="word-title-group">
+      <view class="word-title">
+        {{ wordInfo.word_display }}
+      </view>
+      <starIcon tran-id="{{ wordInfo._id }}"></starIcon>
+    </view>
+
+    <view class="word-info-item word-pron">
+      <view class="pron-text">
+        [{{ wordInfo.pron }}]
+      </view>
+
+      <audioIcon word-id="{{ wordInfo.word_key }}"></audioIcon>
+
+    </view>
+
+    <view class="word-info-item word-trans-en">
+      {{ wordInfo.pos }}
+      {{ wordInfo.trans_zh }}
+    </view>
+
+    <view class="info-item-group">
+      <view class="info-item-title">
+        释义
+      </view>
+      <view class="info-item-content">
+        {{ wordInfo.trans_en }}
+      </view>
+    </view>
+
+    <view class="info-item-group">
+      <view class="info-item-title">
+        例句
+      </view>
+      <view class="info-item-content">
+        {{ wordInfo.example }}
+      </view>
+    </view>
+
+  </view>
+</view>

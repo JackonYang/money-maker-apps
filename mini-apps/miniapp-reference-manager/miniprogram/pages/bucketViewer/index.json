@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "listRows": "/components/listRows/index",
+    "wordDetail": "/components/wordDetail/index",
+    "wordMarkModal": "/components/wordMarkModal/index"
+  }
+}

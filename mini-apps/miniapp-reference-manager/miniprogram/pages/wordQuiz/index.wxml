@@ -1,0 +1,29 @@
+<view class="container">
+
+  <!-- sentence example -->
+  <view class="banner-wrapper">
+    <view class="banner-content">
+      {{ sentence }}
+    </view>
+  </view>
+
+  <!-- 单词显示 -->
+  <view class="word-wrapper">
+    <view class="word-display">
+      {{ word_display }}
+    </view>
+    <view class="word-mp3" bindtap="playAudio">
+      <image id="read-word-icon" mode="aspectFit" src="{{ volumeImgUrl }}"></image>
+    </view>
+  </view>
+
+  <!-- 答案选择区 -->
+  <view class="choices-wrapper">
+    <view class="choices-item" wx:for="{{ choices }}" wx:key=''>
+      <view class="choices-text">
+        {{ item }}
+      </view>
+    </view>
+  </view>
+
+</view>

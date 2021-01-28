@@ -1,0 +1,19 @@
+<view class="container">
+
+  <view class='avatar'>
+    <open-data class='avatar-image' type="userAvatarUrl"></open-data>
+    <open-data class='nickname' type="userNickName"></open-data>
+  </view>
+
+  <view class="group-wrapper" wx:for="{{ linkGroups }}" wx:key="" wx:for-item="linkGroup">
+    <view class="listing-item" bindtap="tapNav"
+     data-nav-id="{{ item.id }}"
+     wx:if="{{ !item.hide }}"
+     wx:for="{{ linkGroup }}" wx:key="">
+      <view class="link-display">
+        {{ item.display }}
+      </view>
+    </view>
+  </view>
+
+</view>

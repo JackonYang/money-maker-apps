@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "starIcon": "/components/starIcon/index",
+    "audioIcon": "/components/audioIcon/index"
+  }
+}

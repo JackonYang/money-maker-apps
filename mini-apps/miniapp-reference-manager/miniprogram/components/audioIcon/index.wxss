@@ -1,0 +1,15 @@
+
+.audio-container {
+  height: 100rpx;
+  width: 100rpx;
+  padding: 0;
+}
+
+image {
+  margin-top: 20rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+.word-mp3 {
+  z-index: 10;
+}

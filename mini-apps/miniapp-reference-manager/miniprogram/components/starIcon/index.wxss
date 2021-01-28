@@ -1,0 +1,22 @@
+
+.star-container {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-top: 10rpx;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.star-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+}

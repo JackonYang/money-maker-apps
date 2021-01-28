@@ -1,0 +1,36 @@
+<view class="container">
+
+  <view class="tips-wrapper" wx:if="{{ loaded }}">
+    <view class="screening-tips">
+      <view class="tips-title">
+        {{ bucketTitle }}
+      </view>
+      <view class="tips-progress">
+        {{ progressName }}: {{ bucketRemain }} / {{ bucketTotal }}
+      </view>
+      <view class="tips-line tips-slogan" wx:if="{{ bucketSlogan }}">
+        {{ bucketSlogan }}
+      </view>
+      <view class="tips-line tips-action" wx:if="{{ actionHint }}">
+        {{ actionHint }}
+      </view>
+    </view>
+  </view>
+
+  <wordRows word-listings="{{ wordListings }}"
+    bindtapword="showWordDetail"></wordRows>
+
+  <view class="long-btn-wrapper">
+    <button class="long-btn" bindtap="submitMarking"> {{ buttonText }} </button>
+  </view>
+
+  <wordMarkModal
+    show="{{ isShowWordDetail }}"
+    word-id="{{ selectedWordId }}"
+    mark-choices="{{ markChoices }}"
+    bindmarkword="markWord">
+    <wordDetail show="{{ isShowWordDetail }}" word-info="{{ selectedWordDetail }}">
+    </wordDetail>
+  </wordMarkModal>
+
+</view>

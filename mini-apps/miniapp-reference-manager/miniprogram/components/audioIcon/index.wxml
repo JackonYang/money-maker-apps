@@ -1,0 +1,8 @@
+
+<view class="audio-container"
+  data-word-id="{{ wordId }}"
+  catchtap="playAudio">
+  <view class="audio-content">
+    <image class="audio-icon" mode="aspectFit" src="{{ audioIconUrl }}"></image>
+  </view>
+</view>

@@ -1,0 +1,32 @@
+<view class="container">
+
+  <view class="tips-wrapper" wx:if="{{ loaded }}" wx:if="{{ showBucketHeader }}">
+    <view class="listing-tips">
+      <view class="tips-title">
+        {{ bucketTitleDisplay }}
+      </view>
+      <view class="tips-line" wx:for="{{ tips }}" wx:key="">
+        {{ item }}
+      </view>
+      <view class="tips-line">
+        {{ actionHint }}
+      </view>
+    </view>
+  </view>
+
+  <listRows listing-displays="{{ listingDisplays }}"
+    bindtaprow="showDetail"></listRows>
+
+  <view class="big-btn-wrapper">
+    <button class='big-btn' bindtap="goToNewFav">添加新收藏</button>
+  </view>
+  <!-- <wordMarkModal
+    show="{{ isShowWordDetail }}"
+    word-id="{{ selectedWordId }}"
+    mark-choices="{{ markChoices }}"
+    bindmarkword="markWord">
+    <wordDetail show="{{ isShowWordDetail }}" word-info="{{ selectedWordDetail }}">
+    </wordDetail>
+  </wordMarkModal> -->
+
+</view>

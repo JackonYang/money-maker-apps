@@ -1,0 +1,17 @@
+<view class="container">
+
+  <view class='url-container'>
+
+    <textarea class='text-url' name="url"
+      bindinput='textChanged'
+      bindconfirm='submit'
+      auto-focus show-confirm-bar
+      placeholder="文章 URL"
+      value="{{ url }}"
+      />
+
+    <view class="big-btn-wrapper">
+      <button class='big-btn' bindtap="submit">添加</button>
+    </view>
+  </view>
+</view>

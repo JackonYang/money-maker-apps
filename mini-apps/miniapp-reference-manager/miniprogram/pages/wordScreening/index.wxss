@@ -1,0 +1,64 @@
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.tips-wrapper {
+  width: 100%;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 300ms ease;
+  margin-bottom: 10rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+
+.screening-tips {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 11pt;
+}
+
+.tips-title {
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+.tips-progress {
+  padding: 10rpx;
+}
+
+.tips-line {
+  padding: 6rpx;
+}
+
+.long-btn-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:fixed;
+  bottom: 20rpx;
+}
+
+.long-btn {
+  background: green;
+  color: white;
+  width: 80%;
+  height: 100rpx;
+}
+
+wordRows {
+  width: 100%;
+  margin-top: 15rpx;
+}

@@ -1,0 +1,15 @@
+<view class="listing-container">
+<view class="listing-content">
+  <block wx:for="{{ listingDisplays }}" wx:key='{{ _id }}'>
+    <view class="listing-row marked-{{ item.markType }}"
+      data-row-id="{{ item._id }}"
+      catchtap="tapRow">
+
+      <view class="item-title">
+        {{ item.pageTitle }}
+      </view>
+
+    </view>
+  </block>
+</view>
+</view>
