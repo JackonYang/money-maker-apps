@@ -1,6 +1,6 @@
 # list-of-wechat-mini-program-list
 
-## Lists
+## List of Lists
 
 #### github search results
 
@@ -15,8 +15,6 @@
 - https://github.com/justjavac/awesome-wechat-weapp
 - https://github.com/Aufree/awesome-wechat-weapp
 - https://github.com/mpvue/awesome-mpvue
-- https://github.com/eeokee/awesome-weapp
-- https://github.com/yuhanle/Awesome-weapp
 
 
 ## 可以拿来变现的小程序源码
