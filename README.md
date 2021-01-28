@@ -1,0 +1,1 @@
+# list-of-wechat-mini-program-list
