@@ -1,0 +1,4 @@
+<playChoice
+  linkGroups="{{ linkGroups }}"
+  nextPageType="trendLatest"
+  ></playChoice>

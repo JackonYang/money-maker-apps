@@ -1,0 +1,38 @@
+<view class='page-footer'>
+
+  <block wx:if="{{ tips }}">
+    <view class="time-info">
+      {{ tips }}
+    </view>
+  </block>
+  <block wx:else>
+    <block wx:if="{{ stopTimeCountDown }}">
+      <view class="time-info">
+        {{ stopTimeCountDown }}
+      </view>
+    </block>
+    <block wx:else>
+      <view class="time-info">
+        {{ stopTime }}
+      </view>
+    </block>
+    <view class='time-info-space'></view>
+    <view class="time-info">
+      时间: {{ openTime }}
+    </view>
+  </block>
+</view>
+
+<freq-table records="{{ records }}"></freq-table>
+
+<official-account></official-account>
+
+<ad unit-id="adunit-9cc152b382dcfdd0"></ad>
+
+<view class="table-gap"></view>
+
+<stat-table curIssue="{{ curIssue }}"></stat-table>
+
+<!-- <view class="ad-wrap">
+  <ad unit-id="adunit-11344b658f04b899"></ad>
+</view> -->

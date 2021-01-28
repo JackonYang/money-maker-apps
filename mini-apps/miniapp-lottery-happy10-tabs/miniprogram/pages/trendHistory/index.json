@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "playChoice": "/components/playChoice/index",
+    "innerTabbar": "/components/inner-tabbar/index"
+  }
+}

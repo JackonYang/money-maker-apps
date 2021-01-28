@@ -1,0 +1,55 @@
+<view class="me-wrap">
+  <view class="section">
+    <view class="title">
+      <view class="left-line"></view>
+      <image src="../../images/tab/save.png" />
+      收藏记录
+      <view class="see-more"></view>
+    </view>
+
+    <ul wx:if="{{ favUrls.length > 0 }}">
+      <li
+        class="link-li"
+        data-url="{{ item.url }}"
+        bindtap="goToPage"
+        wx:key="url"
+        wx:for="{{ (favUrls.length > 5 && !showFavAll) ? sortFavUrls :  favUrls }}">
+        {{ item.displayName }}
+      </li>
+      <button class="see-all-btn" wx:if="{{ favUrls.length > 5 }}" bindtap="showAllToggle">
+        <view wx:if="{{ showFavAll }}">收起</view>
+        <view wx:else class="text">展开全部</view>
+      </button>
+    </ul>
+    <view class="empty" wx:else>
+      <p>
+        什么都没有收藏呢，快去收藏吧
+      </p>
+    </view>
+  </view>
+
+  <ad unit-id="adunit-a356c7aaaab6a019"></ad>
+
+  <view class="section">
+    <view class="title">
+      <view class="left-line"></view>
+      <image src="../../images/foot.png" />
+      历史记录
+      <view class="see-more"></view>
+    </view>
+    <ul wx:if="{{ historyUrls.length > 0 }}">
+      <li
+        class="link-li"
+        data-url="{{ item.url }}"
+        bindtap="goToPage"
+        wx:key="url"
+        wx:for="{{ historyUrls }}">
+        {{ item.displayName }}
+      </li>
+    </ul>
+    <view class="empty" wx:else>
+      空
+    </view>
+  </view>
+
+</view>

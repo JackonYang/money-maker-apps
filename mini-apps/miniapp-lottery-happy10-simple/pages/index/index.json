@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "stat-table": "/components/stat-table/index",
+    "freq-table": "/components/freq-table/index"
+  }
+}

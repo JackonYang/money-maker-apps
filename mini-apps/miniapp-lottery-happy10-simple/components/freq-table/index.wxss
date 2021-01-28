@@ -1,0 +1,251 @@
+.table {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 8px;
+  border-bottom: 1rpx solid silver;
+  line-height: 1em;
+}
+
+.fixed-table {
+  position: absolute;
+}
+
+/* 固定表头 */
+.fixed-table .thead {
+  position:fixed;
+  top: 0;
+  height: 27px;
+}
+
+.fixed-table .tbody.tr:nth-child(2) {
+  margin-top: 27px;
+}
+
+.tfooter {
+  height: 15px;
+}
+
+.fixed-table .tfooter {
+  position:fixed;
+  bottom: 0;
+}
+
+.fixed-table .table-bottom {
+  margin-bottom: 15px;
+}
+
+.table-bottom {
+  /* height: 8px!important; */
+}
+
+.tr {
+  display: flex;
+  width: 100%;
+  height: auto;
+  /* border-top: 1rpx solid silver; */
+  /* border-left: 1rpx solid silver; */
+  color: #555;
+  box-sizing: border-box;
+  line-height: 1em;
+}
+
+.th {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: #555;
+  border-right: 1rpx solid rgba(200, 200, 200, .1);
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  height: 27px;
+}
+
+.td {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  border: none;
+  padding: 0;
+  margin: 0;
+  height: 14px;
+  line-height: 1em;
+}
+
+/* 隔行换色 */
+.tbody.tr:nth-child(2n) {
+  background-color: #f5f5f5;
+}
+.tbody.tr:nth-child(2n-1) {
+  background-color: #ededed;
+}
+
+.tbody.tr:nth-child(2n-1) .td.width3 {
+  background-color: #ffe5e5;
+}
+
+.tbody.tr:nth-child(2n) .td.width3 {
+  background-color: #ffd9d9;
+}
+
+.issue-head {
+  font-size: 9px;
+  background-color: #00b6ce;
+  color: white;
+}
+
+.head3-head {
+  font-size: 9px;  /* 适配 iphone5 小屏幕 */
+  background-color: #fe8785;
+  color: white;
+}
+
+.td.width3 {
+  color: #ff0b28;
+  font-weight: bold;
+}
+
+.small10-head {
+  font-size: 10px;
+  background-color: #7fcae7;
+  color: white;
+}
+
+.big10-head {
+  font-size: 10px;
+  background-color: #88dbfc;
+  color: white;
+}
+
+.repeat-head {
+  font-size: 9px;
+  background-color: #00b6ce;
+  color: white;
+}
+
+.odd-head {
+  font-size: 9px;
+  background-color: #05c8de;
+  color: white;
+}
+
+.td > view {
+  flex: 1;
+}
+
+.th_center {
+  align-items: center;
+}
+
+.tfooter {
+  font-size: 10px;
+  color: white;
+}
+
+.tfooter .width2 {
+  background-color: #878787;
+  display: flex;
+  align-items: center;
+}
+
+.tfooter .width4 {
+  background-color: #878787;
+  display: flex;
+  align-items: center;
+  font-size: 9px;  /* 适配 iphone5 小屏幕 */
+}
+
+.width20 > view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tfooter .width20 > view:nth-child(2n-1) {
+  background-color: #99e4ee;
+}
+
+.tfooter .width20 > view:nth-child(2n) {
+  background-color: #99ecf7;
+}
+
+.tfooter .max1 {
+  background-color: #ff5252!important;
+}
+
+.tfooter .max2 {
+  background-color: #ff8c8c!important;
+}
+
+.tfooter .min1 {
+  background-color: #26b4d7!important;
+}
+
+.tfooter .min2 {
+  background-color: #41def6!important;
+}
+
+.width1 {
+  width: 3%;
+}
+
+.width2 {
+  width: 6%;
+}
+
+.width3 {
+  width: 9%;
+  display: flex;
+  align-items: center;
+}
+
+.width4 {
+  width: 12%;
+}
+
+.width10 {
+  width: 41%;
+  /* font-weight: bold; */
+}
+
+.width20 {
+  width: 82%;
+}
+
+.td.width10 {
+  font-size: 14px;
+  font-family: Impact;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue {
+  color: #0053dd;
+  padding: 0px;
+}
+
+.red {
+  color: #ff0b28;
+  padding: 0px;
+}
+
+.border-cell {
+  /* border-right: 1rpx solid rgba(200, 200, 200, .1); */
+  align-items: center;
+  padding: 0px;
+}
+
+.border-none {
+  border: none;
+}
+
+.top-cell {
+  border: none;
+}
+
+.bottom-cell {
+  border: none;
+}

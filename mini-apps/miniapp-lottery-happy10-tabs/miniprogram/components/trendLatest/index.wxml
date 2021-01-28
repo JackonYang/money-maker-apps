@@ -1,0 +1,41 @@
+<view class='page-footer'>
+
+  <block wx:if="{{ tips }}">
+    <view class="time-info">
+      {{ tips }}
+    </view>
+  </block>
+  <block wx:else>
+    <block wx:if="{{ stopTimeCountDown }}">
+      <view class="time-info">
+        投注倒计时: {{ stopTimeCountDown }}
+      </view>
+    </block>
+    <block wx:else>
+      <view class="time-info">
+        投注截止: {{ stopTime }}
+      </view>
+    </block>
+    <view class='time-info-space'></view>
+    <view class="time-info">
+      下次开奖: {{ openTime }}
+    </view>
+  </block>
+</view>
+
+<freq-table records="{{ records }}" page_type="{{ type }}"></freq-table>
+
+<official-account></official-account>
+
+<view class="table-gap"></view>
+
+<stat-table wx:if="{{ type === 'latest' }}" siteName="{{ siteName }}" curIssue="{{ curIssue }}"></stat-table>
+
+<view class="ad-wrap">
+  <ad unit-id="adunit-42a770bb2e1ada63"></ad>
+</view>
+
+<view class="from-url {{ type }}"> 免责声明 </view>
+<view class="from-url {{ type }}"> 仅提供国家福彩的开奖结果查询，不推荐、售卖彩票。</view>
+<view class="from-url {{ type }}"> 数据来自 {{dataFrom}}，仅供参考 </view>
+<view class="from-url {{ type }}"> 以“正规福彩店”里开奖机的结果为准 </view>

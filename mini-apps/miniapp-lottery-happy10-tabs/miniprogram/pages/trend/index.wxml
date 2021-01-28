@@ -1,0 +1,7 @@
+<view class="trend-latest-page {{ pageType }}">
+  <trendLatest
+    type="{{ pageType }}"
+    site-name="{{ currentRegion }}"
+    ></trendLatest>
+  <innerTabbar></innerTabbar>
+</view>

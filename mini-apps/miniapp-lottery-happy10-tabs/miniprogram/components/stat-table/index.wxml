@@ -1,0 +1,34 @@
+<view class="stat-table" id="hot-stat-table">
+
+  <block class="" wx:for="{{ playFreqs }}" wx:key="idx" wx:for-item="playFreq">
+    <view class="tr {{ playFreq.play_key }}Col" >
+      <view class='tdColumn'>
+        <view class="row head head-first"> 近 {{ playFreq.issue_window }} 期 </view>
+        <view class="row head head-last"> 最热{{ playFreq.play_display_name }}</view>
+
+        <view class="row body">
+          <view class="tr head ticket">
+            号码
+          </view>
+          <view class="tr head freq">
+            次
+          </view>
+        </view>
+
+        <view class="row body" wx:for="{{ playFreq.ticket_freqs }}" wx:key="idx" wx:for-item="ticketFreq">
+          <view class="tr ticket">
+            {{ ticketFreq.ticket_str }}
+          </view>
+          <view class="tr freq">
+            {{ ticketFreq.freq }}
+          </view>
+        </view>
+      </view>
+    </view>
+  </block>
+
+</view>
+
+<view class="long-btn-wrapper">
+  <button class="long-btn" open-type='share'> 告诉朋友们 </button>
+</view>

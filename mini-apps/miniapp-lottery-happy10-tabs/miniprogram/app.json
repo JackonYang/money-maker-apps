@@ -1,0 +1,46 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/tabTrendLatest/index",
+    "pages/playChoice/index",
+    "pages/trendHistory/index",
+    "pages/tabUtils/index",
+    "pages/fullScreenPlayChoice/index",
+    "pages/trend/index",
+    "pages/me/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "快乐十分走势图",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#d81e06",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/tabTrendLatest/index",
+        "text": "最新走势",
+        "iconPath": "images/tab/leida.png",
+        "selectedIconPath": "images/tab/leida_select.png"
+      },
+      {
+        "pagePath": "pages/tabUtils/index",
+        "text": "选号工具",
+        "iconPath": "images/tab/toolbox.png",
+        "selectedIconPath": "images/tab/toolbox_select.png"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "text": "我的",
+        "iconPath": "images/tab/wode.png",
+        "selectedIconPath": "images/tab/wode_select.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

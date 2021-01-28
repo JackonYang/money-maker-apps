@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "快乐十分-最新走势",
+  "usingComponents": {
+    "trendLatest": "/components/trendLatest/index",
+    "innerTabbar": "/components/inner-tabbar/index"
+  }
+}

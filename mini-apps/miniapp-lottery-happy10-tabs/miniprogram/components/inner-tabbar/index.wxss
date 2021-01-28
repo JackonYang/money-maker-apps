@@ -1,0 +1,34 @@
+/* @import '../../miniprogram_npm/weui-miniprogram/weui-wxss/dist/style/weui.wxss'; */
+
+.innter-tabber-wrap {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  /* border-top: 1px solid rgba(0, 0, 0, 0.1); */
+  color: #6e6d6b;
+  background-color: white;
+}
+
+.innter-tabber-wrap image {
+  width: 20px;
+  height: 20px;
+}
+
+.innter-tabber-wrap .button-up-down {
+  flex: 1;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 14px;
+  padding: 5px 0 5px 0;
+}
+
+.innter-tabber-wrap .button-up-down.save-button {
+  /* background-color: orange; */
+  background-color: #dd423c;
+  color: #fff;
+}

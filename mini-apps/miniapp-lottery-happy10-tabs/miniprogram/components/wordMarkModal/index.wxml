@@ -1,0 +1,13 @@
+<view class='mask' wx:if='{{show}}' bindtap="clickMask">
+  <view class='modal-content' style='height:{{height}}' catchtap="clickContent">
+    <scroll-view scroll-y class='main-content'>
+      <slot>
+      </slot>
+    </scroll-view>
+    <view class='modal-btn-wrapper'>
+      <view class='mark-btn' bindtap='markWord' data-mark-type="{{ item.markType }}" wx:for="{{ markChoices }}" wx:key="">
+        {{ item.display }}
+      </view>
+    </view>
+  </view>
+</view>
