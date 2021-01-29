@@ -11,6 +11,8 @@
 
 #### awesome xxx list
 
+- 👍 https://github.com/Data-Camp/WeApp_Demos
+- https://github.com/finalvip/weapp_template 只有截图，没有源码。作为案例参考，还不错。
 - https://github.com/opendigg/awesome-github-wechat-weapp
 - https://github.com/justjavac/awesome-wechat-weapp
 - https://github.com/Aufree/awesome-wechat-weapp
@@ -23,8 +25,11 @@
 
 收集这个列表，也是为了提醒大家。不必过于在意所谓的 idea 和源码。
 
+- https://github.com/Data-Camp/WeApp_Demos/blob/master/%E7%9F%A5%E4%B9%8E%E6%97%A5%E6%8A%A5/zhihu.gif 知乎日报。用小程序做内容，找准话题，做好小程序的 SEO。
+- https://github.com/AmateurEvents/coupon 返利优惠券小程序模板。电商优惠券方向，离钱很近。在未来 10 年尺度上都可以持续赚钱。
+- https://github.com/HunterXuan/E-Coupon 基于淘客助手API和淘宝官方API的领优惠券小程序。看名字就知道，当前最火的全面赚钱项目之一。
 - https://github.com/zwpro/coupons 美团饿了吗红包，先领红包再下单。外卖红包，cps分成，别人领红包下单，你拿佣金。
-- https://github.com/zwpro/redCover 微信红包封面领取，用户观看视频广告或者邀请用户可获取微信红包序列号
+- https://github.com/zwpro/redCover 微信红包封面领取，用户观看视频广告或者邀请用户可获取微信红包序列号。
 - https://github.com/aab0/zhanghaozhushou 账号助手微信小程序. 一个用于存储账号和密码的小程序，使用微信小程序云开发，免服务器。
 - https://github.com/mailzwj/laohuangli 老黄历微信小程序，支持宜/忌事项查阅。算命是一个巨大的行业，利润大的超乎很多人的想象。
 - https://github.com/FishInPool/duo1 多肉物语。多肉花卉的百科小程序。多肉是一个会让人上瘾的东西，行业潜力巨大。
