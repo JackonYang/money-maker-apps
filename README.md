@@ -25,6 +25,20 @@
 
 收集这个列表，也是为了提醒大家。不必过于在意所谓的 idea 和源码。
 
+
+#### update on 2021.02.06
+
+- https://github.com/lx164/house 租房平台类微信小程序
+
+机会分析：
+
+1. 流量来源 1: 小程序可以分享朋友圈了。分享小程序到朋友圈，是否可以设计的比发图片 + 文字更好呢？
+2. 流量来源 2: 微信 SEO。在网页时代，美国有 1 家地产网站，主要靠 Google SEO 拿流量，发展到了上百个员工的规模。
+3. 流量来源 3: 裂变分享。个人出租者，总要跟大家讨论自己的房子，微信群里求转发。小程序能否做的转发体验更好呢。
+
+
+#### update on 2021.01.30
+
 - https://github.com/Data-Camp/WeApp_Demos/blob/master/%E7%9F%A5%E4%B9%8E%E6%97%A5%E6%8A%A5/zhihu.gif 知乎日报。用小程序做内容，找准话题，做好小程序的 SEO。
 - https://github.com/AmateurEvents/coupon 返利优惠券小程序模板。电商优惠券方向，离钱很近。在未来 10 年尺度上都可以持续赚钱。
 - https://github.com/HunterXuan/E-Coupon 基于淘客助手API和淘宝官方API的领优惠券小程序。看名字就知道，当前最火的全面赚钱项目之一。
