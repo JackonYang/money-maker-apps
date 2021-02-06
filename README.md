@@ -68,6 +68,7 @@
 
 ## 文章
 
-- 微信官方 -- 小程序搜索优化指南(SEO) https://developers.weixin.qq.com/community/develop/doc/000a0a1191c3a817e7a9c6f1e51409
+- [微信官方 -- 小程序搜索优化指南(SEO)](https://developers.weixin.qq.com/community/develop/doc/000a0a1191c3a817e7a9c6f1e51409)
 
     无他，就为了回答一下，小程序能 SEO 吗？官方在 2019 年就说了，这个可以有。
+- [小程序开放的服务类目](https://developers.weixin.qq.com/miniprogram/product/material/)
