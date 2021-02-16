@@ -25,6 +25,13 @@
 
 收集这个列表，也是为了提醒大家。不必过于在意所谓的 idea 和源码。
 
+#### update on 2021.02.16
+
+- https://github.com/naihe138/heroStory 王者荣耀故事站--小程序. 开源了全量数据的爬虫代码。
+
+游戏相关的内容站，可以白嫖一下数据。网页版的样式做的也不错。
+
+
 #### update on 2021.02.07
 
 - https://github.com/infinityu/mina-wear-mask 头像加口罩小程序 - 基于uniapp使用vue快速实现
