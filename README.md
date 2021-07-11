@@ -73,6 +73,24 @@
 - https://github.com/mailzwj/laohuangli 老黄历微信小程序，支持宜/忌事项查阅。算命是一个巨大的行业，利润大的超乎很多人的想象。
 - https://github.com/FishInPool/duo1 多肉物语。多肉花卉的百科小程序。多肉是一个会让人上瘾的东西，行业潜力巨大。
 
+## 好文
+
+只做信息汇总，文章的真实性，请自行甄别。
+
+#### 大神案例
+
+- 2020-09-12 [月入￥3000案例分享：screenshotAPI，帮网页截屏的 API](https://mp.weixin.qq.com/s/6Eg1dWRlnVO6OPQUQVsgYg)
+- 2013年5月 http://viralnova.com [成立仅8个月的个人网站，月收入几十万美金](https://zhuanlan.zhihu.com/p/57543348)
+- 2020-05-12 生财有术 [如何通过老照片修复半年赚到 40 万？](https://mp.weixin.qq.com/s/X-VOOUTxM09BwGF7bsJq0A)
+-  2020-04-22 [写一个开源的 macOS 程序可以赚多少钱？](https://mp.weixin.qq.com/s/NL_c1gfPiXVp-o_OkcylDA) 一共 20 多万
+-  2020-05-08 生财有术 [讲一个千万级流量的套利机会](https://mp.weixin.qq.com/s/yHFPz35_0nbuO8wskAC_8g) 知乎 SEO
+
+
+#### 有趣的文
+
+- 2020-11-30 [复利的谎言](https://mp.weixin.qq.com/s/1pJSuOSrNIj4KPB0F8O54A)
+- [2019中国颜值经济洞察报告](https://github.com/JackonYang/list-of-wechat-mini-program-list/blob/master/pdf/%E9%A2%9C%E5%80%BC%E7%BB%8F%E6%B5%8E%E6%B4%9E%E5%AF%9F.pdf)
+- 2020-10-28 [兽圈、谷圈、笔圈……00后都在玩什么？](https://mp.weixin.qq.com/s/1i7JJ5PBovb6h3B_N94eNg)
 
 ## 我的
 
@@ -90,6 +108,7 @@
 - 我的微信广告收入 -- 总结 2020，展望 2021 https://mp.weixin.qq.com/s/swBgQsLefnkaRcIiYT7Y_Q
 - 又错过了一个日入几万的机会，一点反思 https://mp.weixin.qq.com/s/shg2HG7X6d-zQKlpWO9b-Q
 - 股票公众号的竞品分析和收益能力分析 https://mp.weixin.qq.com/s/lrbnrMGTDOoDrNAGuSCfpw
+
 
 ## 文章
 
