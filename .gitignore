@@ -1,0 +1,53 @@
+# .gitignore by JackonYang
+
+
+# hexo
+db.json
+public/
+
+node_modules/
+.obsidian
+
+# self defined
+db.sqlite3
+media/*
+static/*
+
+.ipynb_checkpoints
+
+# flask
+config/production.py
+config/development.py
+
+
+### Django ###
+local_settings.py
+*.log
+
+
+### python ###
+*.py[cod]
+__pycache__/
+*.so  # C extensions
+pip-log.txt  # Installer logs
+
+
+### Vim ###
+.ropeproject/*
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*~
+
+### Pycharm ###
+.idea/*
+
+
+### Mac ###
+.DS_Store
+
+
+# SVN
+.svn
+
+
+!PLACEHOLDER
