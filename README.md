@@ -25,6 +25,13 @@
 
 收集这个列表，也是为了提醒大家。不必过于在意所谓的 idea 和源码。
 
+#### update on 2021.11.12
+
+- https://github.com/savingrun/WeHalo WeHalo 简约风 的微信小程序版博客
+
+1.3k star, 48 个打赏，打赏合计 ￥540 元。
+平均每 26 个 star 一个打赏，每个打赏 10 元。
+
 #### update on 2021.02.16
 
 - https://github.com/naihe138/heroStory 王者荣耀故事站--小程序. 开源了全量数据的爬虫代码。
