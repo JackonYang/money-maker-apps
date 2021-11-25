@@ -25,6 +25,14 @@
 
 收集这个列表，也是为了提醒大家。不必过于在意所谓的 idea 和源码。
 
+#### update on 2021.11.25
+
+https://github.com/longwenjunjie/jiangqie_kafei 酱茄小程序开源版
+
+基于WordPress的微信小程序，适用于博客小程序和新闻资讯小程序。
+
+基于 Wordpress 的，有点意思
+
 #### update on 2021.11.12
 
 - https://github.com/savingrun/WeHalo WeHalo 简约风 的微信小程序版博客
