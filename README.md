@@ -1,80 +1,22 @@
-# list-of-wechat-mini-program-list
+# Money Maker Apps
 
-## List of Lists
+我建了一个 GitHub organization 来收集开源代码：[awesome-mini-apps](https://github.com/awesome-mini-apps)
 
-#### github search results
+个人观点：
 
-- https://github.com/search?q=mini-program
-- https://github.com/search?q=mini-app
-- https://github.com/search?q=weapp
-- https://github.com/search?q=awesome+weapp
-
-#### awesome xxx list
-
-- 👍 https://github.com/Data-Camp/WeApp_Demos
-- https://github.com/finalvip/weapp_template 只有截图，没有源码。作为案例参考，还不错。
-- https://github.com/opendigg/awesome-github-wechat-weapp
-- https://github.com/justjavac/awesome-wechat-weapp
-- https://github.com/Aufree/awesome-wechat-weapp
-- https://github.com/mpvue/awesome-mpvue
+用小程序赚钱，关键在运营。不必过于在意所谓的 idea 和源码。
 
 
-## 可以拿来变现的小程序源码
+## 有趣的项目能赚钱
 
-⚠️ 用小程序赚钱，关键在运营。
-
-收集这个列表，也是为了提醒大家。不必过于在意所谓的 idea 和源码。
-
-#### update on 2021.11.25
-
-https://github.com/longwenjunjie/jiangqie_kafei 酱茄小程序开源版
-
-基于WordPress的微信小程序，适用于博客小程序和新闻资讯小程序。
-
-基于 Wordpress 的，有点意思
-
-#### update on 2021.11.12
-
-- https://github.com/savingrun/WeHalo WeHalo 简约风 的微信小程序版博客
-
-1.3k star, 48 个打赏，打赏合计 ￥540 元。
-平均每 26 个 star 一个打赏，每个打赏 10 元。
-
-#### update on 2021.02.16
-
-- https://github.com/naihe138/heroStory 王者荣耀故事站--小程序. 开源了全量数据的爬虫代码。
-
-游戏相关的内容站，可以白嫖一下数据。网页版的样式做的也不错。
-
-
-#### update on 2021.02.07
-
-- https://github.com/infinityu/mina-wear-mask 头像加口罩小程序 - 基于uniapp使用vue快速实现
-
-作者自述：充分利用的流量运营思维包括取名截流、公众号文章引流、广告放置策略优化，累计获得10w+用户，获取广告收入4K+。 核心代码开发时间为两个周末。 初步实现小程序矩阵雏形
-
-小程序矩阵雏形：
-
-- 头像加口罩
-- 头像加字
-- 头像加福
-- 聊天背景图
-- 生日宇宙图
-
-机会分析：
-
-1. 追热点的一波流。第一时间察觉到热点，第一时间设计好图片素材，用最多 1-2 天放出小程序。提前做好技术储备。
-
-
-#### update on 2021.02.06
-
-- https://github.com/lx164/house 租房平台类微信小程序
-
-机会分析：
-
-1. 流量来源 1: 小程序可以分享朋友圈了。分享小程序到朋友圈，是否可以设计的比发图片 + 文字更好呢？
-2. 流量来源 2: 微信 SEO。在网页时代，美国有 1 家地产网站，主要靠 Google SEO 拿流量，发展到了上百个员工的规模。
-3. 流量来源 3: 裂变分享。个人出租者，总要跟大家讨论自己的房子，微信群里求转发。小程序能否做的转发体验更好呢。
+| 发现日期 | 项目地址 | 类型 | 个人观点 | 发现方式 | 备注 |
+| --- | --- | --- | --- | --- | --- |
+| 2021.12.28 | [bestofjs.org](https//bestofjs.org) | 基于 GitHub 数据的流量农场 | 第一个打动我的这类农场。没看到广告，聚合的比较有质量，repo 详细页面的 trends 有信息量。| google 搜 JavaScript image viewer | [页面截图](memo/bestofjs-notes/README.md)|
+| 2021.11.25 | [github-酱茄小程序开源版](https://github.com/longwenjunjie/jiangqie_kafei) | 博客和新闻资讯 | 基于 WordPress 的微信小程序，有点意思 | github 推荐 | |
+| 2021.11.12 | [github-WeHalo](https://github.com/savingrun/WeHalo) | 微信小程序版博客 | 1.3k star, 48 个打赏，打赏合计 ￥540 元。平均每 26 个 star 一个打赏，每个打赏 10 元。 | github 推荐 | |
+| 2021.02.16 | [王者荣耀故事站--小程序](https://github.com/naihe138/heroStory) | 内容小程序 | 游戏相关的内容站，可以白嫖一下数据。网页版的样式做的也不错。 | 忘了 | 开源了全量数据的爬虫代码 |
+| 2021.02.07 | [头像加口罩小程序](https://github.com/infinityu/mina-wear-mask) | 蹭热点头像加 X 小程序 | 追热点的一波流。特别需要提前做好技术储备。从而可以，第一时间察觉到热点，第一时间设计好图片素材，用最多 1-2 天放出小程序。过了时间窗口，就没钱了 | github 推荐 | 2 个周末赚了 4k+ [更多信息](memo/mina-wear-mask/README.md) |
+| 2021.02.06 | [租房平台类微信小程序](https://github.com/lx164/house) | 码农好像很多人关注这个方向 | 有机会，但很难运营 | github 推荐 | [3 点机会分析](memo/house-market/README.md) |
 
 
 #### update on 2021.01.30
@@ -107,18 +49,7 @@ https://github.com/longwenjunjie/jiangqie_kafei 酱茄小程序开源版
 - [2019中国颜值经济洞察报告](https://github.com/JackonYang/list-of-wechat-mini-program-list/blob/master/pdf/%E9%A2%9C%E5%80%BC%E7%BB%8F%E6%B5%8E%E6%B4%9E%E5%AF%9F.pdf)
 - 2020-10-28 [兽圈、谷圈、笔圈……00后都在玩什么？](https://mp.weixin.qq.com/s/1i7JJ5PBovb6h3B_N94eNg)
 
-## 我的
-
-#### 几个小程序
-
-大部分依赖 server，直接跑起来有困难。
-
-- https://github.com/JackonYang/list-of-wechat-mini-program-list/tree/master/mini-apps/miniapp-lottery-happy10-simple 彩票开奖结果查询-单页面单彩种
-- https://github.com/JackonYang/list-of-wechat-mini-program-list/tree/master/mini-apps/miniapp-lottery-happy10-tabs 彩票开奖结果查询-多页面多彩种
-- https://github.com/JackonYang/list-of-wechat-mini-program-list/tree/master/mini-apps/miniapp-cobuy 合买报名小程序-给个人微信引流
-- https://github.com/JackonYang/list-of-wechat-mini-program-list/tree/master/mini-apps/miniapp-reference-manager 管理自己认识的单词。是自定义词库产品的一部分，挖坑多年未填完
-
-#### 几篇文章
+## 我的几篇文章
 
 - 我的微信广告收入 -- 总结 2020，展望 2021 https://mp.weixin.qq.com/s/swBgQsLefnkaRcIiYT7Y_Q
 - 又错过了一个日入几万的机会，一点反思 https://mp.weixin.qq.com/s/shg2HG7X6d-zQKlpWO9b-Q
@@ -131,3 +62,14 @@ https://github.com/longwenjunjie/jiangqie_kafei 酱茄小程序开源版
 
     无他，就为了回答一下，小程序能 SEO 吗？官方在 2019 年就说了，这个可以有。
 - [小程序开放的服务类目](https://developers.weixin.qq.com/miniprogram/product/material/)
+
+
+## Notes
+
+
+#### 常用命令
+
+```bash
+# 生成 memo 的 README.md
+bash scripts/gen_image_list.sh memo/bestofjs-notes
+```
