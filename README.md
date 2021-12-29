@@ -1,6 +1,6 @@
 # Money Maker Apps
 
-我建了一个 GitHub organization 来收集开源代码：[awesome-mini-apps](https://github.com/awesome-mini-apps)
+我建了一个 GitHub organization 来收集开源代码：[money-maker-apps](https://github.com/money-maker-apps)
 
 个人观点：
 
