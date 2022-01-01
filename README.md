@@ -30,6 +30,24 @@
 - https://github.com/mailzwj/laohuangli 老黄历微信小程序，支持宜/忌事项查阅。算命是一个巨大的行业，利润大的超乎很多人的想象。
 - https://github.com/FishInPool/duo1 多肉物语。多肉花卉的百科小程序。多肉是一个会让人上瘾的东西，行业潜力巨大。
 
+## 微信红包封面
+
+#### 教程类
+
+- [微信红包封面开放平台](https://cover.weixin.qq.com/cgi-bin/mmcover-bin/readtemplate?t=page/index#/) 2022 政策：平台仅向中国大陆境内的、通过微信公众平台成功开通并完成企业认证的公众号用户，或成功开通视频号且有效粉丝数达 100 个的视频号用户开放注册。
+- [微信红包封面定制个人学习总结](https://developers.weixin.qq.com/community/develop/article/doc/0002a4dd30ce305d209b0377d5c013?page=1) 内含常见的审核驳回原因整理
+- [微信红包封面如何过审，整理下我踩过的坑，未通过审核的各种原因及应对方法。](https://developers.weixin.qq.com/community/develop/article/doc/00024ccdbdc7e85553ab9f0e051813) 2021-02-02，作者微信: dashenu
+
+
+#### 案例与分析文
+
+- [微信：2022 新年的第一波红包封面来了](https://www.ithome.com/0/594/391.htm) 大厂的优质封面养眼
+- [微信红包封面催生暴利灰产：月入三十万，付费更比免费香？](https://finance.sina.com.cn/tech/2021-02-07/doc-ikftssap4412337.shtml)
+- [牛逼吧，「红包封面」都是这么赚钱的](https://blog.51cto.com/u_15127664/2780373) 2022 年已不适用，仅供参考
+- [如何靠微信红包封面实现10万+收入？](https://zhuanlan.zhihu.com/p/347389303) 2022 年已不适用，仅供参考
+- [微信红包封面也能赚钱，有人几天就赚到了十万](https://zhuanlan.zhihu.com/p/348678620)
+
+
 ## 好文
 
 只做信息汇总，文章的真实性，请自行甄别。
