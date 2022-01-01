@@ -32,6 +32,10 @@
 
 ## 微信红包封面
 
+#### 我的文章
+
+- [2022 年，微信红包封面的生意换个形式又来了](https://mp.weixin.qq.com/s/CaSyApuljFvOXO4lKLnQXg)
+
 #### 教程类
 
 - [微信红包封面开放平台](https://cover.weixin.qq.com/cgi-bin/mmcover-bin/readtemplate?t=page/index#/) 2022 政策：平台仅向中国大陆境内的、通过微信公众平台成功开通并完成企业认证的公众号用户，或成功开通视频号且有效粉丝数达 100 个的视频号用户开放注册。
