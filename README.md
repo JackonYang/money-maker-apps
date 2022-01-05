@@ -54,7 +54,13 @@
 
 ## 下三路
 
-- [男性壮阳食疗汤](pdf/enhance-men-power.pdf), 200 页老中医药方。可以做成小程序 & 网站，精准引流
+把内容拆解开，做成小程序 & 网站，精准引流
+
+- [送给群里男同胞的礼物1](pdf/enhance-men-power/enhance-men-power1.pdf) 200 页老中医药方。
+- [送给群里男同胞的礼物2](pdf/enhance-men-power/enhance-men-power2.pdf)
+- [送给群里男同胞的礼物3](pdf/enhance-men-power/enhance-men-power3.pdf)
+- [送给群里男同胞的礼物4](pdf/enhance-men-power/enhance-men-power4.pdf)
+- [送给群里男同胞的礼物5](pdf/enhance-men-power/enhance-men-power5.pdf)
 
 
 ## 好文
