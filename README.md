@@ -10,6 +10,7 @@
 
 | 发现日期 | 项目地址 | 类型 | 个人观点 | 发现方式 | 备注 |
 | --- | --- | --- | --- | --- | --- |
+| 2022.05.20 | [https://hellodigua.github.io/code996/#/](https://hellodigua.github.io/code996/#/) | web | 有趣有热点的工作。可以把工具做成小程序，可以用工具跑一些话题项目做内容 | 微信群分享 |  一个分析工具，它可以统计 Git 项目的 commit 时间分布，进而推导出这个项目的编码工作强度。|
 | 2022.05.19 | [https://bionic-reading.com/](https://bionic-reading.com/) | hosted API | [bionic reading -- 英语阅读加速工具](memo/bionic-reading/bionic-reading.md) | 微信群分享 | |
 | 2021.12.28 | [bestofjs.org](https//bestofjs.org) | 基于 GitHub 数据的流量农场 | 第一个打动我的这类农场。没看到广告，聚合的比较有质量，repo 详细页面的 trends 有信息量。| google 搜 JavaScript image viewer | [页面截图](memo/bestofjs-notes/README.md)|
 | 2021.11.25 | [github-酱茄小程序开源版](https://github.com/longwenjunjie/jiangqie_kafei) | 博客和新闻资讯 | 基于 WordPress 的微信小程序，有点意思 | github 推荐 | |
