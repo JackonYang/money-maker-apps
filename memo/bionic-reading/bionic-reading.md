@@ -23,3 +23,5 @@ Reeder 5, Fiery Feeds, Lire  官网上给的 3 个案例 app
 一个 chrome 插件，应该是最实用的，默认格式化一下所有的英文文章
 
 发现一个问题，网站上，除了精挑细选的案例之外，其他的文字，都没有启用这个 feature。看起来，距离大范围落地，可能还比较遥远
+
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h2dhlp1umpj216n0u0abo.jpg)
